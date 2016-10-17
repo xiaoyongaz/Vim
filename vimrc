@@ -4,6 +4,7 @@ filetype plugin indent on
 
 let mapleader = "\<Space>"
 
+set timeoutlen=450
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -40,6 +41,19 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+""""" Settings for NERDTree
+let NERDTreeIgnore=['\~$', '^\.git', '\.swp$', '\.DS_Store$']
+let NERDTreeShowHidden=1
+
+" ---------------------------------------------------------------------------
+"  """"" Settings for taglist.vim
+let Tlist_Use_Right_Window=1
+let Tlist_Auto_Open=0
+let Tlist_Enable_Fold_Column=0
+let Tlist_Compact_Format=0
+let Tlist_WinWidth=28
+let Tlist_Exit_OnlyWindow=1
+let Tlist_File_Fold_Auto_Close = 1
 
 
 
